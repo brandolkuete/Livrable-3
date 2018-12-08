@@ -23,8 +23,14 @@
 								LES FONCTIONNALITES QUI MARCHENT POUR LE MOMENT
 								
 	Pour le moment, grace à l'application on peut:
-		> enregistrer un nouveau enseignant et ensuite afficher ses details sur une fiche
-		> enregistrer un nouveau élève et ensuite afficher ses details sur une fiche
+		> enregistrer un nouveau enseignant dans la base de données
+		> enregistrer un nouveau élève dans la base de données
+		> rechercher un eleve dans la base de données à partir de son nom
+		> rechercher un enseignant dans la base de données à partir de son nom
+		> rechercher un eleve dans la base de données à partir de son matricule
+		> rechercher un enseignant dans la base de données à partir de son matricule
+		> Lister tous les élèves présents dans la base de données
+		> Lister tous les enseignants présents dans la base de données
 		
 								LES PRE-REQUIS POUR EXECUTER L'APPLICATION
 
@@ -53,7 +59,7 @@
 		
 								LES ETAPES POUR VOIR LA DOCUMENTATION DE L'APPLICATION
 								
-		> Ouvrir le dossier "Livrable 1"
+		> Ouvrir le dossier "Livrable 3"
 		> Ouvrir le repertoire "doc"
 		> Double-cliquer sur le fichier "index"
 		
@@ -66,10 +72,10 @@
 		
 		1- ouvrir le dossier "Livrable 1"
 		2- Dans la barre de taches, cliquer sur "Fichier", puis "Ouvrir Windows PowerShell" et ensuite "Ouvrir Windows PowerShell en tant qu'administrateur" 
-		3- tapez la commande 'java -jar SystemeScolaire.jar'
+		3- tapez la commande 'java -jar Systeme_Scolaire.jar'
 		
 		> Dans le cas contraire :
 		
 		1- Ouvrir l'invite de commande de votre ordinateur
-		2- Se positioner dans le dossier "Livrable 1" (commande : 'cd [chemin]/[dossier cible]')
-		3- Quand vous etes dans le dossier "Livrable 1", taper la commande 'java -jar SystemeScolaire.jar'
+		2- Se positioner dans le dossier "Livrable 3" (commande : 'cd [chemin]/[dossier cible]')
+		3- Quand vous etes dans le dossier "Livrable 3", taper la commande 'java -jar Systeme_Scolaire.jar'
