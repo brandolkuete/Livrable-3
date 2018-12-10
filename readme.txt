@@ -34,7 +34,8 @@
 		
 								LES PRE-REQUIS POUR EXECUTER L'APPLICATION
 
-	pour executer cette application, il faut au préalable avoir installé un jdk ou au moins un jre sur son ordinateur
+	pour executer cette application, il faut au préalable avoir installé:
+	> un jdk ou au moins un jre sur son ordinateur
 	
 	pour le faire, voici les étapes à suivre :
 				
@@ -55,11 +56,12 @@
 		11- Cliquez sur Close: L’installation du JDK est terminée.
 
 		NB: la version du jdk utilisé pour cette application est la version 9
+	> Un serveur de données (NB: pour ce projet j'utilise MySQL intégré dans XAMPP et SQLYog comme gestionnaire de la base de données)
 
 		
 								LES ETAPES POUR VOIR LA DOCUMENTATION DE L'APPLICATION
 								
-		> Ouvrir le dossier "Livrable 3"
+		> Ouvrir le dossier "Livrable-3"
 		> Ouvrir le repertoire "doc"
 		> Double-cliquer sur le fichier "index"
 		
@@ -69,13 +71,15 @@
 	Pour executer l'application, voici les etapes à suivre :
 	
 		> Si vous etes dans Windows 10:
-		
-		1- ouvrir le dossier "Livrable 1"
-		2- Dans la barre de taches, cliquer sur "Fichier", puis "Ouvrir Windows PowerShell" et ensuite "Ouvrir Windows PowerShell en tant qu'administrateur" 
-		3- tapez la commande 'java -jar Systeme_Scolaire.jar'
+
+		1- Demmarer le serveur MySQL
+		2- Créer la base de données bd_systeme_scolaire dans le gestionnaire de base de données
+		3- ouvrir le dossier "Livrable-3"
+		4- Dans la barre de taches, cliquer sur "Fichier", puis "Ouvrir Windows PowerShell" et ensuite "Ouvrir Windows PowerShell en tant qu'administrateur" 
+		5- tapez la commande 'java -jar Systeme_Scolaire.jar'
 		
 		> Dans le cas contraire :
 		
 		1- Ouvrir l'invite de commande de votre ordinateur
-		2- Se positioner dans le dossier "Livrable 3" (commande : 'cd [chemin]/[dossier cible]')
+		2- Se positioner dans le dossier "Livrable-3" (commande : 'cd [chemin]/[dossier cible]')
 		3- Quand vous etes dans le dossier "Livrable 3", taper la commande 'java -jar Systeme_Scolaire.jar'
