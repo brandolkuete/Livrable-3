@@ -72,7 +72,7 @@
 	
 		> Si vous etes dans Windows 10:
 
-		1- Demmarer le serveur MySQL
+		1- Demmarer le serveur de données MySQL
 		2- Créer la base de données bd_systeme_scolaire dans le gestionnaire de base de données
 		3- ouvrir le dossier "Livrable-3"
 		4- Dans la barre de taches, cliquer sur "Fichier", puis "Ouvrir Windows PowerShell" et ensuite "Ouvrir Windows PowerShell en tant qu'administrateur" 
